@@ -21,8 +21,8 @@ Make sure you have node, npm, mongodb, mongodb tools, Twitter API developer acco
 * make sure mongodb is running.
 * make sure your Twitter api keys in the config.js
 * extract the .zip folder contents in Resources folder
-* npm i
-* npm start
+* `npm i`
+* `npm start`
 
 ### Build using Docker (Recommended)
-* docker-compose up
+* `docker-compose up`
