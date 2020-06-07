@@ -1,11 +1,11 @@
 # Social Media Scraper
 
-This a social media scraper, completed for Topcoder challenge, used to extract tweets from twitter API for specific brand name with description and feedback.
+This is a social media scraper; a completed Topcoder challenge. Used to extract tweets from Twitter API with a specific brand name, description and feedback.
 
-The CLI tool will start by creating a mongo databse, connect, and restore to it from backup file. Then extract the brand names with feedbacks and descriptions. contruct a GET request to the twitter API, and save the responses to a new document with a name social media to that specific brand and add the tweets. 
+The CLI tool will begin by creating a Mongo database, to connect and restore data from backup file. Next, extract the brand names, feedbacks and descriptions from restored data. Contruct a GET request to the Twitter API. Then, save the responses to a new document with the name "socialMedia" to that specific brand and add the tweets. 
 
 ## Technology Stack
-* NodeJS
+* Node.JS
 * Mongo
 * Twitter API
 
@@ -16,13 +16,14 @@ The CLI tool will start by creating a mongo databse, connect, and restore to it 
 * The .zip file should be in the Resources Folder
     
 ### Build and install
-Make sure you have node, npm, mongodb, mongodb tools, Twitter API developer account.
+Ensure you have: Node.JS, npm, Mongodb, Mongodb tools, Twitter API developer account.
 
-* make sure mongodb is running.
-* make sure your Twitter api keys in the config.js
-* extract the .zip folder contents in Resources folder
+* Confirm Mongodb is running.
+* Make sure your Twitter API keys are in the config.js
+* Extract the .zip folder contents in Resources folder
 * `npm i`
 * `npm start`
 
 ### Build using Docker (Recommended)
+* Make sure your Twitter API keys are in the config.js
 * `docker-compose up`
